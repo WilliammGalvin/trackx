@@ -20,7 +20,6 @@ function Inventory() {
     "Out of Stock": "bg-red-50 text-red-700",
   };
 
-  // ✅ FULL PRODUCT LIST RESTORED
   const [products, setProducts] = useState([
     { name: "Hammer Claw 16oz", sku: "TLS-HC16", category: "Tools", price: 18.99, stock: 34, status: "In Stock" },
     { name: "AA Batteries (4-pack)", sku: "BAT-AA4", category: "Electrical", price: 6.49, stock: 3, status: "Low Stock" },
